@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MovieCatalogue</string>
+    <string name="title_movies">Movies</string>
+    <string name="title_tvshows">TV Shows</string>
+    <string name="overview">Deskripsi</string>
+    <string name="change_language_settings">Ubah Setelan Bahasa</string>
+    <string name="more_info">Info Lanjut</string>
+
+    <string-array name="data_judul">
+        <item>Joker</item>
+        <item>Maleficent\: Mistress of Evil</item>
+        <item>Terminator\: Dark Fate</item>
+        <item>Ip Man 4\: The Finale</item>
+        <item>Fast "\&amp;" Furious Presents: Hobbs "\&amp;" Shaw</item>
+        <item>The Lion King</item>
+        <item>El Camino\: A Breaking Bad Movie</item>
+        <item>Spider-Man\: Far from Home</item>
+        <item>Zombieland\: Double Tap</item>
+        <item>Toy Story 4</item>
+    </string-array>
+
+    <string-array name="data_date">
+        <item>4 Oktober 2019</item>
+        <item>18 Oktober 2019</item>
+        <item>1 November 2019</item>
+        <item>20 Desember 2019</item>
+        <item>2 Agustus 2019</item>
+        <item>19 Juli 2019</item>
+        <item>11 Oktober 2019</item>
+        <item>2 Juli 2019</item>
+        <item>18 Oktober 2019</item>
+        <item>21 Juni 2019</item>
+    </string-array>
+
+    <string-array name="data_deskripsi">
+        <item>Selama 1980-an, seorang pelawak berdiri gagal didorong gila dan beralih ke kehidupan
+            kejahatan dan kekacauan di Kota Gotham sementara menjadi tokoh kejahatan psikopat terkenal.</item>
+        <item>Maleficent dan putri baptisnya Aurora mulai mempertanyakan ikatan keluarga kompleks
+            yang mengikat mereka saat mereka ditarik ke arah yang berbeda dengan pernikahan yang
+            akan datang, sekutu yang tak terduga, dan pasukan baru yang gelap sedang bermain.</item>
+        <item>Lebih dari dua dekade telah berlalu sejak Sarah Connor mencegah Hari Penghakiman,
+            mengubah masa depan, dan menulis ulang nasib umat manusia. Dani Ramos menjalani kehidupan
+            sederhana di Mexico City bersama saudara laki-laki dan ayahnya ketika Terminator baru
+            yang sangat maju dan mematikan - seorang Rev-9 - melakukan perjalanan kembali melalui
+            waktu untuk berburu dan membunuhnya. Kelangsungan hidup Dani bergantung pada kekuatannya
+            bergabung dengan dua pejuang: Grace, seorang prajurit super yang ditingkatkan dari masa
+            depan, dan seorang Sarah Connor yang berjuang keras. Ketika Rev-9 dengan kejam
+            menghancurkan segala sesuatu dan semua orang di jalurnya untuk berburu Dani, ketiganya
+            mengarah ke T-800 dari masa lalu Sarah yang mungkin menjadi harapan terbaik terakhir mereka.</item>
+        <item>Ip Man 4 adalah film seni bela diri biografi Hong Kong yang akan datang yang disutradarai oleh Wilson Yip dan diproduksi oleh Raymond Wong. Ini adalah yang keempat dalam seri film Ip Man berdasarkan kehidupan grandmaster Wing Chun dengan nama yang sama dan fitur Donnie Yen mengulangi peran. Film ini mulai diproduksi pada April 2018 dan berakhir pada Juli di tahun yang sama.</item>
+        <item>Sejak Agen Layanan Keamanan Diplomatik AS Hobbs dan Shaw yang terbuang tanpa hukum
+            pertama kali berhadapan, mereka hanya bertukar pukulan dan kata-kata buruk. Tetapi ketika
+            tindakan cyber-genetika yang meningkat anarkis mengancam masa depan umat manusia, keduanya
+            bergabung untuk mengalahkannya. (Sebuah spin-off dari \"The Fate of the Furious,\" yang
+            berfokus pada Johnson Johnson Luke Hobbs dan Statham\'s Deckard Shaw).</item>
+        <item>Simba mengidolakan ayahnya, Raja Mufasa, dan mengambil hati takdir kerajaannya sendiri. Tapi tidak semua orang di kerajaan merayakan kedatangan anak baru itu. Scar, saudara lelaki Mufasa — dan mantan pewaris takhta — memiliki rencana sendiri. Pertempuran untuk Pride Rock dirusak dengan pengkhianatan, tragedi dan drama, yang akhirnya menghasilkan pengasingan Simba. Dengan bantuan dari sepasang teman baru yang penasaran, Simba harus mencari cara untuk tumbuh dan mengambil kembali apa yang menjadi haknya.</item>
+        <item>Setelah melarikan diri secara dramatis dari penawanan, Jesse Pinkman harus berdamai dengan masa lalunya untuk menempa semacam masa depan.</item>
+        <item>Peter Parker dan teman-temannya melakukan perjalanan musim panas ke Eropa. Namun, mereka hampir tidak dapat beristirahat - Peter harus setuju untuk membantu Nick Fury mengungkap misteri makhluk yang menyebabkan bencana alam dan kehancuran di seluruh benua.</item>
+        <item>Grup ini akan menghadapi ancaman zombie baru seiring berkembangnya zombie baru. Tipe super-zombie baru ini lebih cepat, lebih besar, dan lebih kuat dari jenis zombie sebelumnya dan lebih sulit untuk dibunuh. Zombi super ini telah mulai berkelompok menjadi gerombolan pergi dari kota ke kota meninggalkan jalan kehancuran di belakang mereka.</item>
+        <item>Woody selalu yakin tentang tempatnya di dunia dan bahwa prioritasnya adalah merawat anaknya, apakah itu Andy atau Bonnie. Tetapi ketika Bonnie menambahkan mainan baru yang enggan disebut \"Forky\" ke kamarnya, petualangan perjalanan bersama teman-teman lama dan baru akan menunjukkan kepada Woody seberapa besar dunia untuk sebuah mainan.</item>
+    </string-array>
+
+    <string-array name="data_rate">
+        <item>86%</item>
+        <item>72%</item>
+        <item>66%</item>
+        <item>54%</item>
+        <item>65%</item>
+        <item>71%</item>
+        <item>71%</item>
+        <item>76%</item>
+        <item>75%</item>
+        <item>76%</item>
+    </string-array>
+
+    <string-array name="data_photo">
+        <item>https://tinyurl.com/y4dgc66s</item>
+        <item>https://tinyurl.com/y39t472v</item>
+        <item>https://tinyurl.com/y48lyr2m</item>
+        <item>https://tinyurl.com/y4ktzrzy</item>
+        <item>https://tinyurl.com/y6qyopap</item>
+        <item>https://tinyurl.com/y476v27s</item>
+        <item>https://tinyurl.com/yxbtedc6</item>
+        <item>https://tinyurl.com/y5hu9dqh</item>
+        <item>https://tinyurl.com/y4dkyqqr</item>
+        <item>https://tinyurl.com/yyzb8n9f</item>
+    </string-array>
+
+    <string-array name="data_tvs_judul">
+        <item>His Dark Materials</item>
+        <item>See</item>
+        <item>Batwoman</item>
+        <item>Doom Patrol</item>
+        <item>The Boys</item>
+        <item>Watchmen</item>
+        <item>The Morning Show</item>
+        <item>For All Mankind</item>
+        <item>We Are the Wave</item>
+        <item>Dickinson</item>
+    </string-array>
+
+    <string-array name="data_tvs_date">
+        <item>3 November 2019</item>
+        <item>1 November 2019</item>
+        <item>6 Oktober 2019</item>
+        <item>15 Februari 2019</item>
+        <item>25 Juli 2019</item>
+        <item>20 Oktober 2019</item>
+        <item>1 November 2019</item>
+        <item>1 November 2019</item>
+        <item>1 November, 2019</item>
+        <item>1 November 2019</item>
+    </string-array>
+
+    <string-array name="data_tvs_rate">
+        <item>80%</item>
+        <item>75%</item>
+        <item>61%</item>
+        <item>65%</item>
+        <item>81%</item>
+        <item>76%</item>
+        <item>80%</item>
+        <item>72%</item>
+        <item>70%</item>
+        <item>85%</item>
+    </string-array>
+
+    <string-array name="data_tvs_desc">
+        <item>Lyra adalah seorang yatim piatu yang hidup di alam semesta paralel di mana sains, teologi, dan sihir terjalin. Pencarian Lyra untuk teman yang diculik mengungkap plot jahat yang melibatkan anak-anak yang dicuri, dan berubah menjadi pencarian untuk memahami fenomena misterius yang disebut Dust. Dia kemudian bergabung dalam perjalanannya oleh Will, seorang bocah lelaki yang memiliki pisau yang dapat memotong jendela antar dunia. Ketika Lyra mengetahui kebenaran tentang orang tuanya dan takdirnya yang dinubuatkan, kedua orang muda itu terperangkap dalam perang melawan kekuatan selestial yang tersebar di banyak dunia.</item>
+        <item>Virus telah menghancurkan manusia. Mereka yang selamat ternyata buta. Berabad-abad kemudian ketika anak kembar dilahirkan dengan kemampuan mitis untuk melihat, ayah mereka harus melindungi sukunya dari ratu yang terancam.</item>
+        <item>Kate Kane, dipersenjatai dengan hasrat untuk keadilan sosial dan bakat untuk mengutarakan pikirannya, melonjak ke jalan-jalan Gotham sebagai Batwoman, seorang lesbian pejuang jalanan dan sangat terlatih prima untuk memadamkan kebangkitan kriminal kota yang gagal. Tapi jangan panggil dia pahlawan. Di kota yang sangat membutuhkan penyelamat, Kate harus mengatasi iblisnya sendiri sebelum menerima panggilan untuk menjadi simbol harapan Gotham</item>
+        <item>Anggota Patroli Doom masing-masing mengalami kecelakaan mengerikan yang memberi mereka kemampuan manusia super - tetapi juga membuat mereka terluka dan cacat. Trauma dan tertindas, tim menemukan tujuan melalui Ketua, yang menyatukan mereka untuk menyelidiki fenomena aneh yang ada - dan untuk melindungi Bumi dari apa yang mereka temukan.</item>
+        <item>Sekelompok penjaga yang dikenal secara informal sebagai \"The Boys\" berangkat untuk menjatuhkan superhero yang korup dengan tidak lebih dari grit kerah biru dan kesediaan untuk melawan yang kotor.</item>
+        <item>Ditetapkan dalam sejarah alternatif di mana "pahlawan super" diperlakukan sebagai penjahat, \"Penjaga\" merangkul nostalgia dari novel grafis inovatif saat mencoba untuk memecahkan tanah baru sendiri.</item>
+        <item>Pandangan di belakang layar pada kehidupan orang-orang yang membantu Amerika bangun di pagi hari, menjelajahi tantangan unik yang dihadapi oleh pria dan wanita yang melakukan ritual televisi harian ini.</item>
+        <item>Jelajahi dunia aspirasional di mana NASA dan program luar angkasa tetap menjadi prioritas dan titik fokus harapan dan impian kami sebagaimana diceritakan melalui kehidupan para astronot, insinyur, dan keluarga mereka di NASA.</item>
+        <item>Teman sekelas yang misterius memimpin empat remaja idealis dalam pemberontakan melawan gelombang semangat nasionalistik yang meningkat, tetapi gerakan mereka berubah menjadi gelap.</item>
+        <item>Emily Dickinson. Penyair. Putri. Pemberontak total. Dalam kisah usia dewasa ini, Emily bertekad untuk menjadi penyair terhebat di dunia.</item>
+    </string-array>
+
+    <string-array name="data_tvs_img">
+        <item>https://tinyurl.com/y5umzas4</item>
+        <item>https://tinyurl.com/y5f6237f</item>
+        <item>https://tinyurl.com/y2d4bkdm</item>
+        <item>https://tinyurl.com/y5ub9lds</item>
+        <item>https://tinyurl.com/y4sh5vt3</item>
+        <item>https://tinyurl.com/yyxt9km4</item>
+        <item>https://tinyurl.com/yymsg6zq</item>
+        <item>https://tinyurl.com/y2er3mxh</item>
+        <item>https://tinyurl.com/y4ooxe7c</item>
+        <item>https://tinyurl.com/y2mtyx2t</item>
+    </string-array>
+</resources>
