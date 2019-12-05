@@ -92,7 +92,7 @@
         <item>Batwoman</item>
         <item>Doom Patrol</item>
         <item>The Boys</item>
-		<item>Watchmen</item>
+        <item>Watchmen</item>
         <item>The Morning Show</item>
         <item>For All Mankind</item>
         <item>We Are the Wave</item>
@@ -105,20 +105,20 @@
         <item>October 6, 2019</item>
         <item>February 15, 2019</item>
         <item>July 25, 2019</item>
-		<item>October 20, 2019</item>
+        <item>October 20, 2019</item>
         <item>November 1, 2019</item>
         <item>November 1, 2019</item>
         <item>November 1, 2019</item>
         <item>November 1, 2019</item>
     </string-array>
-    
+
     <string-array name="data_tvs_rate">
         <item>80%</item>
         <item>75%</item>
         <item>61%</item>
         <item>65%</item>
         <item>81%</item>
-		<item>76%</item>
+        <item>76%</item>
         <item>80%</item>
         <item>72%</item>
         <item>70%</item>
@@ -147,18 +147,18 @@
 			the weirdest phenomena in existence — and to protect Earth from what they find.</item>
         <item>A group of vigilantes known informally as \“The Boys\” set out to take down corrupt 
 			superheroes with no more than blue-collar grit and a willingness to fight dirty.</item>
-		<item>Set in an alternate history where “superheroes” are treated as outlaws, \“Watchmen\” 
+        <item>Set in an alternate history where “superheroes” are treated as outlaws, \“Watchmen\”
 			embraces the nostalgia of the original groundbreaking graphic novel while attempting 
 			to break new ground of its own.</item>
-		<item>A behind-the-scenes look at the lives of the people who help America wake up in the 
+        <item>A behind-the-scenes look at the lives of the people who help America wake up in the
 			morning, exploring the unique challenges faced by the men and women who carry out 
 			this daily televised ritual.</item>
-		<item>Explore an aspirational world where NASA and the space program remained a priority 
+        <item>Explore an aspirational world where NASA and the space program remained a priority
 			and a focal point of our hopes and dreams as told through the lives of NASA astronauts, 
 			engineers, and their families.</item>
-		<item>A mysterious classmate leads four idealistic teens in a revolt against a rising 
+        <item>A mysterious classmate leads four idealistic teens in a revolt against a rising
 			tide of nationalistic fervor, but their movement takes a dark turn.</item>
-		<item>Emily Dickinson. Poet. Daughter. Total rebel. In this coming-of-age story, 
+        <item>Emily Dickinson. Poet. Daughter. Total rebel. In this coming-of-age story,
 			Emily\’s determined to become the world\’s greatest poet.</item>
     </string-array>
 
@@ -168,10 +168,10 @@
         <item>https://tinyurl.com/y2d4bkdm</item>
         <item>https://tinyurl.com/y5ub9lds</item>
         <item>https://tinyurl.com/y4sh5vt3</item>
-		<item>https://tinyurl.com/yyxt9km4</item>
-		<item>https://tinyurl.com/yymsg6zq</item>
-		<item>https://tinyurl.com/y2er3mxh</item>
-		<item>https://tinyurl.com/y4ooxe7c</item>
-		<item>https://tinyurl.com/y2mtyx2t</item>
+        <item>https://tinyurl.com/yyxt9km4</item>
+        <item>https://tinyurl.com/yymsg6zq</item>
+        <item>https://tinyurl.com/y2er3mxh</item>
+        <item>https://tinyurl.com/y4ooxe7c</item>
+        <item>https://tinyurl.com/y2mtyx2t</item>
     </string-array>
 </resources>

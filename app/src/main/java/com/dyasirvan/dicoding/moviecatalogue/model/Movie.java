@@ -3,84 +3,54 @@ package com.dyasirvan.dicoding.moviecatalogue.model;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-public class Movie implements Parcelable {
-    String judul;
-    String rating;
-    String date;
-    String deskripsi;
-    String foto;
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
 
-    public String getFoto() {
-        return foto;
+import java.util.List;
+
+public class Movie {
+    @SerializedName("page")
+    @Expose
+    int page;
+    @SerializedName("total_results")
+    @Expose
+    int totalResults;
+    @SerializedName("total_pages")
+    @Expose
+    int totalPages;
+    @SerializedName("results")
+    @Expose
+    List<Results> results;
+
+    public int getPage() {
+        return page;
     }
 
-    public void setFoto(String foto) {
-        this.foto = foto;
+    public void setPage(int page) {
+        this.page = page;
     }
 
-    public String getJudul() {
-        return judul;
+    public int getTotalResults() {
+        return totalResults;
     }
 
-    public void setJudul(String judul) {
-        this.judul = judul;
+    public void setTotalResults(int totalResults) {
+        this.totalResults = totalResults;
     }
 
-    public String getRating() {
-        return rating;
+    public int getTotalPages() {
+        return totalPages;
     }
 
-    public void setRating(String rating) {
-        this.rating = rating;
+    public void setTotalPages(int totalPages) {
+        this.totalPages = totalPages;
     }
 
-    public String getDate() {
-        return date;
+    public List<Results> getResults() {
+        return results;
     }
 
-    public void setDate(String date) {
-        this.date = date;
-    }
-
-    public String getDeskripsi() {
-        return deskripsi;
-    }
-
-    public void setDeskripsi(String deskripsi) {
-        this.deskripsi = deskripsi;
-    }
-
-    @Override
-    public int describeContents() {
-        return 0;
-    }
-
-    @Override
-    public void writeToParcel(Parcel parcel, int i) {
-        parcel.writeString(judul);
-        parcel.writeString(date);
-        parcel.writeString(rating);
-        parcel.writeString(deskripsi);
-        parcel.writeString(foto);
-    }
-
-    public static final Creator<Movie> CREATOR = new Creator<Movie>() {
-        @Override
-        public Movie createFromParcel(Parcel in) {
-            return new Movie(in);
-        }
-        @Override
-        public Movie[] newArray(int size) {
-            return new Movie[size];
-        }
-    };
-
-    public  Movie(){};
-    protected Movie(Parcel in) {
-        judul = in.readString();
-        date = in.readString();
-        rating = in.readString();
-        deskripsi = in.readString();
-        foto = in.readString();
+    public void setResults(List<Results> results) {
+        this.results = results;
     }
 }

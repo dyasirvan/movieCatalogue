@@ -1,5 +1,6 @@
 package com.dyasirvan.dicoding.moviecatalogue.adapter;
 
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,15 +13,21 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 import com.dyasirvan.dicoding.moviecatalogue.R;
+import com.dyasirvan.dicoding.moviecatalogue.api.TvShowApi;
+import com.dyasirvan.dicoding.moviecatalogue.api.TvShowApiInterface;
+import com.dyasirvan.dicoding.moviecatalogue.model.ResultsTvShow;
 import com.dyasirvan.dicoding.moviecatalogue.model.TvShow;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class TvShowAdapter extends RecyclerView.Adapter<TvShowAdapter.ListViewHolder> {
-    private ArrayList<TvShow> listTV;
+    private List<ResultsTvShow> resultsTvShows;
+    private Context context;
 
-    public TvShowAdapter(ArrayList<TvShow> list) {
-        this.listTV = list;
+    public TvShowAdapter(List<ResultsTvShow> resultsTvShows, Context context) {
+        this.resultsTvShows = resultsTvShows;
+        this.context = context;
     }
 
     private OnItemClickCallback onItemClickCallback;
@@ -29,38 +36,38 @@ public class TvShowAdapter extends RecyclerView.Adapter<TvShowAdapter.ListViewHo
     }
 
     public interface OnItemClickCallback {
-        void onItemClicked(TvShow data);
+        void onItemClicked(ResultsTvShow data);
     }
 
     @NonNull
     @Override
     public ListViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_tvshow, parent, false);
+        View view = LayoutInflater.from(context).inflate(R.layout.item_tvshow, parent, false);
         return new ListViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(@NonNull final ListViewHolder holder, int position) {
-        TvShow tvShow = listTV.get(position);
+        ResultsTvShow tvShow = resultsTvShows.get(position);
         Glide.with(holder.itemView.getContext())
-                .load(tvShow.getShow_foto())
+                .load(TvShowApi.poster_filename+tvShow.getPosterPath())
                 .apply(new RequestOptions().override(55, 70))
                 .into(holder.showImgPhoto);
-        holder.tvShowJudul.setText(tvShow.getShow_judul());
-        holder.tvShowDate.setText(tvShow.getShow_date());
-        holder.tvShowRate.setText(tvShow.getShow_rating());
-        holder.tvShowDesc.setText(tvShow.getShow_deskripsi());
+        holder.tvShowJudul.setText(tvShow.getOriginalName());
+        holder.tvShowDate.setText(tvShow.getFirstAirDate());
+        holder.tvShowRate.setText(String.valueOf(tvShow.getVoteAverage()));
+        holder.tvShowDesc.setText(tvShow.getOverview());
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                onItemClickCallback.onItemClicked(listTV.get(holder.getAdapterPosition()));
+                onItemClickCallback.onItemClicked(resultsTvShows.get(holder.getAdapterPosition()));
             }
         });
     }
 
     @Override
     public int getItemCount() {
-        return listTV.size();
+        return resultsTvShows.size();
     }
 
     class ListViewHolder extends RecyclerView.ViewHolder {
